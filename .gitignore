@@ -1,0 +1,13 @@
+# собранные бинарники
+build/
+a.out
+*.o
+*.so
+*.efi
+esp/
+
+# конкретные исполняемые файлы примеров
+arch_specific/pit
+arch_specific/popcnt_bench
+arch_specific/portable
+uefi_gfx/gop_model
