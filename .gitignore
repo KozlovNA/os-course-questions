@@ -11,3 +11,9 @@ arch_specific/pit
 arch_specific/popcnt_bench
 arch_specific/portable
 uefi_gfx/gop_model
+
+# uefi_gfx: локально скачанные пакеты и результаты запуска
+uefi_gfx/deps/
+uefi_gfx/vars.fd
+uefi_gfx/serial.txt
+uefi_gfx/shot.ppm
