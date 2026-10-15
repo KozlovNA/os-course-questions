@@ -24,3 +24,15 @@ struct big make_big(long v) {
     struct big r = { v, v + 1, v + 2 };
     return r;
 }
+
+/* Структура из двух long (16 байт) возвращается в паре rax:rdx. */
+struct pair { long a, b; };
+struct pair make_pair(long v) {
+    struct pair r = { v, v * 2 };
+    return r;
+}
+
+/* Число с плавающей точкой возвращается в xmm0. */
+double half(long v) {
+    return v / 2.0;
+}
